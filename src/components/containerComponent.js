@@ -5,16 +5,19 @@ import Bio from './bioComponent';
 import Projects from './recentWorkComponent';
 import Skills from './skillsComponent';
 import Footer from './footerComponent';
+import Navigation from './naviComponent';
 
 function Container() {
 
     return (
         <div id="wrapper" >
             <Header />
+            <Navigation />
             <Skills />
             <Projects />
             <Bio />
             <Contact />
+            
             <Footer />
         </div>
     );
