@@ -7,7 +7,7 @@ import Skills from './skillsComponent';
 import Footer from './footerComponent';
 import Navigation from './naviComponent';
 
-function Container() {
+function Holder() {
 
     return (
         <div id="wrapper" >
@@ -23,4 +23,4 @@ function Container() {
     );
 }
 
-export default Container;
+export default Holder;

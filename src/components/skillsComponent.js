@@ -1,47 +1,51 @@
 import React from 'react';
 import { FaReact, FaHtml5, FaBootstrap, FaNodeJs, FaGithub} from 'react-icons/fa';
 import { SiJavascript, SiCss3, SiMongodb, SiRedux, SiVisualstudiocode } from 'react-icons/si';
+import { Container, Row, Col } from 'reactstrap';
 
 function Skills() {
     return (
-        <React.Fragment>
-            <div className="container">
-                <div className="row ">
-                    <div className="col-2">
-                        <FaReact className="icon" />
-                    </div>
-                    <div className="col-2">    
-                        <FaHtml5 className="icon"/>
-                    </div>
-                    <div className="col-2"> 
-                        <FaBootstrap className="icon"/>
-                    </div> 
-                    <div className="col-2"> 
-                        <FaNodeJs className="icon"/>
-                    </div> 
-                    <div className="col-2">  
-                        <FaGithub className="icon"/>
-                    </div>
-                </div>
-                <div className="row ">
-                    <div className="col-2">
-                        <SiJavascript className="icon" />
-                    </div>
-                    <div className="col-2">    
-                        <SiCss3 className="icon"/>
-                    </div>
-                    <div className="col-2"> 
-                        <SiMongodb className="icon"/>
-                    </div> 
-                    <div className="col-2"> 
-                        <SiRedux className="icon"/>
-                    </div> 
-                    <div className="col-2">  
-                        <SiVisualstudiocode className="icon"/>
-                    </div>
-                </div>
-            </div>
-        </React.Fragment>
+        <Container id="skills" className="alt">
+            <Row>
+                <Col>
+                    <h1 className="heading">Technologies</h1>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <FaReact className="icon" />
+                </Col>
+                <Col>    
+                    <FaHtml5 className="icon"/>
+                </Col>
+                <Col> 
+                    <FaBootstrap className="icon"/>
+                </Col> 
+                <Col> 
+                    <FaNodeJs className="icon"/>
+                </Col> 
+                <Col>  
+                    <FaGithub className="icon"/>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <SiJavascript className="icon" />
+                </Col>
+                <Col>    
+                    <SiCss3 className="icon"/>
+                </Col>
+                <Col> 
+                    <SiMongodb className="icon"/>
+                </Col> 
+                <Col>
+                    <SiRedux className="icon"/>
+                </Col> 
+                <Col>  
+                    <SiVisualstudiocode className="icon"/>
+                </Col>
+            </Row>
+        </Container>
     );
 }
 
