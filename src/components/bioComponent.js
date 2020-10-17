@@ -1,12 +1,17 @@
 import React from 'react';
-import { Container, Row, Col} from 'reactstrap';
+import { Container, Row, Col, Media} from 'reactstrap';
 
 function Bio() {
     return (
-        <Container id="bio">
+        <Container fluid id="bio" className="bg-light">
             <Row>
                 <Col>
             <h1 className="heading alt">About Me</h1>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <Media src="" className="line"></Media>
                 </Col>
             </Row>
             <Row className="row-content alt">

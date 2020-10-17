@@ -1,11 +1,11 @@
 import React from 'react';
 import { FaReact, FaHtml5, FaBootstrap, FaNodeJs, FaGithub} from 'react-icons/fa';
 import { SiJavascript, SiCss3, SiMongodb, SiRedux, SiVisualstudiocode } from 'react-icons/si';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Media } from 'reactstrap';
 
 function Skills() {
     return (
-        <Container id="skills" className="alt">
+        <Container fluid id="skills" className="alt bg-light">
             <Row>
                 <Col>
                     <h1 className="heading">Technologies</h1>
@@ -13,6 +13,11 @@ function Skills() {
             </Row>
             <Row>
                 <Col>
+                    <Media src="" className="line"></Media>
+                </Col>
+            </Row>
+            <Row className="squeeze">
+                <Col >
                     <FaReact className="icon" />
                 </Col>
                 <Col>    
@@ -28,7 +33,7 @@ function Skills() {
                     <FaGithub className="icon"/>
                 </Col>
             </Row>
-            <Row>
+            <Row className="squeeze">
                 <Col>
                     <SiJavascript className="icon" />
                 </Col>
