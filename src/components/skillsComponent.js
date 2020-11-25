@@ -16,38 +16,37 @@ function Skills() {
                     <Media src="" className="line"></Media>
                 </Col>
             </Row>
-            <Row className="squeeze">
+            <Row lg='5' className="squeeze">
                 <Col >
-                    <FaReact className="icon" />
+                    <FaReact color="blue" className="icon" />
                 </Col>
-                <Col>    
-                    <FaHtml5 className="icon"/>
+                <Col>     
+                    <FaHtml5 color="orange" className="icon"/>
                 </Col>
                 <Col> 
-                    <FaBootstrap className="icon"/>
+                    <FaBootstrap color="purple" className="icon"/>
                 </Col> 
                 <Col> 
-                    <FaNodeJs className="icon"/>
+                    <FaNodeJs color="green" className="icon"/>
                 </Col> 
                 <Col>  
                     <FaGithub className="icon"/>
                 </Col>
-            </Row>
-            <Row className="squeeze">
+            
                 <Col>
                     <SiJavascript className="icon" />
                 </Col>
                 <Col>    
-                    <SiCss3 className="icon"/>
+                    <SiCss3 color="blue" className="icon"/>
                 </Col>
                 <Col> 
-                    <SiMongodb className="icon"/>
+                    <SiMongodb color="green" className="icon"/>
                 </Col> 
                 <Col>
-                    <SiRedux className="icon"/>
+                    <SiRedux color="purple" className="icon"/>
                 </Col> 
                 <Col>  
-                    <SiVisualstudiocode className="icon"/>
+                    <SiVisualstudiocode color="blue" className="icon"/>
                 </Col>
             </Row>
         </Container>

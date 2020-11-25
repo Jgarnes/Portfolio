@@ -14,7 +14,7 @@ function Bio() {
                     <Media src="" className="line"></Media>
                 </Col>
             </Row>
-            <Row className="row-content alt">
+            <Row className="para alt">
                 <Col>
                     <p>Transitioning my skills from over 5 years’ experience in theater, event production, and production management to a career in
                     website development. Proficient with various front-end and back-end frameworks as well as management of underlying

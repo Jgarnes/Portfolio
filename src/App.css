@@ -2,6 +2,8 @@
   background-image: url("images/overlay3.svg"), linear-gradient(-135deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
   height: 100;
   padding: 1px;
+  background-position: center;
+  background-size: cover;
 }
 
 .alt {
@@ -25,11 +27,15 @@
 .heading {
 	padding-top: 100px;
 	padding-bottom: 10px;
-	color: rgb(24, 24, 231);
+	color: rgb(0, 0, 0);
 	text-align: center;
-	/* border-bottom: 7px solid burlywood; */
-	
 }
+
+@media screen and (max-device-width: 730px) {
+	.heading {
+		padding-top: 25px;
+	}
+  }
 
 .line{
 	display: block;
@@ -46,12 +52,24 @@
 .mid {
 	justify-content: center;
 }
+
+.fit {
+	height: 100%;
+	width: 100%;
+}
+
 /* Navigation */
+
+@media screen and (max-device-width: 730px) {
+	#nav {
+		display: none;
+	}
+  }
 
 #nav {
 	box-sizing: border-box;
-	padding: 1em 4em;
-	background-color: #fffffffa;
+	padding: 1em 2em;
+	background-color: #f3f3f3fa;
 	border-top-left-radius: 0.25em;
 	border-top-right-radius: 0.25em;
 	text-align: center;
@@ -59,11 +77,6 @@
 	top: 0;
 	z-index: 1;
 }
-
-/* ul {
-	margin: 0px;
-	padding: 0px;
-} */
 
 li {
 	display: inline-block;
@@ -73,21 +86,42 @@ li {
 	font-size: 20px;
 }
 
-a {
+#nav a {
+	color: black;
 	line-height: 2.25em;
-	padding: 0 1.25em;
+	/* padding: 0 1.25em; */
 	border-radius: 8px;
-	box-shadow: inset 0 0 0 1px transparent;
+	text-decoration: none;
+
+	/* box-shadow: inset 0 0 0 1px transparent; */
 	
 }
 
-a:hover {
-	color: #22e722;
-	background-color: rgba(222, 222, 222, 0.25);
+#nav a:hover {
+	/* color: #22e722; */
+	background-color: rgba(192, 58, 58, 0.25);
 }
 
 
 	/* Skills */
+
+@media screen and (max-device-width: 730px) {
+	#skills {
+		border-top-left-radius: 0.25em;
+		border-top-right-radius: 0.25em;
+	}
+
+	#skills .icon {
+		width: 75px;
+		height: 75px;
+		margin: 25px 0px;
+	}
+
+	#skills .squeeze {
+		padding: 0px 30px;
+	}
+}	
+
 .icon {
 	width: 150px;
 	height: 150px;
@@ -104,16 +138,55 @@ a:hover {
 	padding: 0px 60px;
 }
 
-.col  {
-	/* padding: 0px 20px; */
-	/* margin: 10px; */
-}
-
 	/*Projects*/
 
 .row-content {
 	box-sizing: border-box;
 	padding: 20px;
-	border-bottom: 5px ridge;
-	/* min-height: 200px; */
+	border-bottom: 3px ridge;
+}
+
+.photo {
+	object-fit: cover;
+}
+
+	/* About Me */
+
+@media screen and (max-device-width: 730px) {
+	#bio .para {
+		padding: 25px
+	} 
+}
+
+.para {
+	padding: 100px 50px;
+}
+
+	/* Contact */
+
+	@media screen and (max-device-width: 730px) {
+		#contact {
+			padding-bottom: 50px;
+			margin-bottom: 50px
+		} 
+
+		.footcon {
+			margin: 20px 0px;
+		}
+	}
+
+#contact {
+	padding-bottom: 100px;
+	margin-bottom: 100px
+}
+
+#contact a {
+	color: black;
+}
+
+
+.footcon {
+	width: 50px;
+	height: 50px;
+	margin: 40px 0px; 
 }

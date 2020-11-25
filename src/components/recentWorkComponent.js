@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Media} from 'reactstrap';
 
 function Projects() {
+
     return (
         <Container fluid id="projects" className="bg-light">
             <Row>
@@ -17,50 +18,48 @@ function Projects() {
             <Row className="row-content">
                 <Col md="6">
                     <Media className="mid" href="#">
-                        <Media object src="/photos/download.jpg" alt="" />
+                        <a href="https://romantic-allen-8674b4.netlify.app/" target="_blank" rel="noopener noreferrer"><Media height="325px" width="100%" className="photo" object src="/photos/thermo.jpg" alt="" /></a>
                     </Media>
                 </Col> 
-                <Col md="6">       
+                <Col md="6" style={{marginTop:"auto", marginBottom:"auto"}}>       
                     <Media body className="alt">
                         <Media heading>
-                        Media Heading 
+                            Weather App
                         </Media>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </Media>
+                            Need to check the weather. Use this app I created using JavaScript, React hooks, and an API
+                        </Media>
                     
                 </Col>
             </Row>
             <Row className="row-content">
-                <Col md="6">
-                    <Media body className="alt">
-                        <Media heading>
-                        Media Heading 
-                        </Media>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                <Col md="6 order-md-12">    
+                    <Media className="mid">
+                       <a href="https://xenodochial-golick-7b4fc1.netlify.app/" target="_blank" rel="noopener noreferrer"> <Media height="325px" width="100%" className="photo" object src="/photos/calc.jpg" alt=""/></a>
                     </Media>
                 </Col>
-                <Col md="6">    
-                    <Media className="mid" href="#">
-                        <Media object src="/photos/images.jpg" alt="" />
+                <Col md="6" style={{marginTop:"auto", marginBottom:"auto"}}>
+                    <Media body className="alt">
+                        <Media heading>
+                            Great Scott!!! 
+                        </Media>
+                            Where would the Doc be without his calculator. A simple calculator I created using JavaScript
                     </Media>
                 </Col>
             </Row>    
             <Row className="row-content">
                 <Col md="6">
                     <Media className="mid" href="#">
-                        <Media object src="/photos/download.jpg" alt="" />
+                        <a href="https://jeremygarnes.netlify.app/" target="_blank" rel="noopener noreferrer"><Media height="325px" width="100%" className="photo" object src="/photos/folio.jpg" alt="" /></a>
                     </Media>
                 </Col>
-                <Col md="6">
+                <Col md="6" style={{marginTop:"auto", marginBottom:"auto"}}>
                     <Media body className="alt">
                         <Media heading>
-                        Media Heading 
+                            Portfolio V 0.5
                         </Media>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                         My first portfolio site. Was taking me awhile to get this one up, so I whipped this one up using React.js.
                     </Media>
-                    
                 </Col>
-                
             </Row>
         </Container>
        
