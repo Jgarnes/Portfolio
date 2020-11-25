@@ -150,6 +150,12 @@ li {
 	object-fit: cover;
 }
 
+#projects p {
+	font-size: 25px;
+	font-style: normal;
+	font-weight: lighter;
+}
+
 	/* About Me */
 
 @media screen and (max-device-width: 730px) {
@@ -160,6 +166,11 @@ li {
 
 .para {
 	padding: 100px 50px;
+}
+
+#bio p {
+	font-size: 25px;
+	font-family: 'Sura', serif;
 }
 
 	/* Contact */

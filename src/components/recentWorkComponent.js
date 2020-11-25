@@ -26,7 +26,7 @@ function Projects() {
                         <Media heading>
                             Weather App
                         </Media>
-                            Need to check the weather. Use this app I created using JavaScript, React hooks, and an API
+                            <p>Need to check the weather. Use this app I created using JavaScript, React hooks, and an API</p>
                         </Media>
                     
                 </Col>
@@ -42,7 +42,7 @@ function Projects() {
                         <Media heading>
                             Great Scott!!! 
                         </Media>
-                            Where would the Doc be without his calculator. A simple calculator I created using JavaScript
+                            <p>Where would the Doc be without his calculator. A simple calculator I created using JavaScript</p>
                     </Media>
                 </Col>
             </Row>    
@@ -57,7 +57,7 @@ function Projects() {
                         <Media heading>
                             Portfolio V 0.5
                         </Media>
-                         My first portfolio site. Was taking me awhile to get this one up, so I whipped this one up using React.js.
+                         <p>My first portfolio site. Was taking me awhile to get this one up, so I whipped this one up using React.js.</p>
                     </Media>
                 </Col>
             </Row>
